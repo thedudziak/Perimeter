@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class perimeter {
 
 
-	static int sideone ;
-	static int sidetwo ;
-	static int perimeter;
+	static float sideone ;
+	static float sidetwo ;
+	static float perimeter;
 	static Scanner sc= new Scanner(System.in);
 
 public static void main(String[] args) {
 	System.out.println("Enter first side");
-	int sideone= sc.nextInt();  
+	int sideone= sc.float();  
 	System.out.println("Enter second side");
-	int sidetwo= sc.nextInt();
+	int sidetwo= sc.float();
 	perimeter = 2*sideone+2*sidetwo;
 	System.out.println("The squares perimeter is : " +perimeter);
 }
