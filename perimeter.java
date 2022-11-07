@@ -12,9 +12,9 @@ public class perimeter {
 
 public static void main(String[] args) {
 	System.out.println("Enter first side");
-	int sideone= sc.float();  
+	float sideone= sc.nextFloat();  
 	System.out.println("Enter second side");
-	int sidetwo= sc.float();
+	float sidetwo= sc.nextFloat();
 	perimeter = 2*sideone+2*sidetwo;
 	System.out.println("The squares perimeter is : " +perimeter);
 }
